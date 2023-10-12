@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-
 import tkinter as tk
 
+from _version import __version__
 from GUI.Controllers import MainController
 
 # Better readability (prevents blurry text) on high DPI displays
@@ -13,6 +12,6 @@ except Exception:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.title("KismetDB2KML 2023-01-R1")
+    root.title(f"KismetDB2KML {__version__}")
     app = MainController(root)
     root.mainloop()

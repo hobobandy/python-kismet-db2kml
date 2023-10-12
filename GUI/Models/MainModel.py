@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from colour import Color
 from peewee import *
 import simplekml
