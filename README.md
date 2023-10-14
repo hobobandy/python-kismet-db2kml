@@ -1,4 +1,4 @@
-# kismetdb2kml
+# python-kismet-db2kml
 Python GUI to generate KML files of device locations from KismetDB files.
 
 ## Better Alternative?

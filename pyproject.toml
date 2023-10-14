@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "kismetdb2kml"
+name = "python-kismet-db2kml"
 version = "2023.10-dev1"
 description = "Python GUI to generate KML files of device locations from KismetDB files."
 authors = ["hobobandy"]
